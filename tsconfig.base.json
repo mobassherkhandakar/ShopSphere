@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ecommerce-monorepo/frontend/react-ui": [
+        "libs/frontend/react-ui/src/index.ts"
+      ],
+      "@ecommerce-monorepo/schema": ["libs/backend/schema/src/index.ts"],
+      "@ecommerce-monorepo/utils": ["libs/backend/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
