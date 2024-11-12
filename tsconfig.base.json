@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@ecommerce-monorepo/frontend/react-icon": [
+        "libs/frontend/react-icon/src/index.ts"
+      ],
       "@ecommerce-monorepo/frontend/react-ui": [
         "libs/frontend/react-ui/src/index.ts"
       ],
